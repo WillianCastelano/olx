@@ -164,7 +164,7 @@ public class Ad {
     }
 
     @ManyToOne
-    @JoinColumn(name = "created_by")
+    @JoinColumn(name = "created_by_user")
     private User createdByUser;
 
     private Long updatedBy;

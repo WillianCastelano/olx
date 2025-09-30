@@ -64,6 +64,6 @@ public class AdService {
         public void deleteAd(Long id) {
             adRepository.deleteById(id);
         }
-    }
 
+    }
 
